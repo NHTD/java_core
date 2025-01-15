@@ -4,8 +4,9 @@
      1. for: vòng lặp java for được sử dụng để lặp lại một phần của chương trình nhiều lần. nếu số lần lặp là cố định.
      2. while: vòng lặp java while được sử dụng để lặp đi lặp lại một phần của chương trình cho đến khi điều kiện boolean được chỉ định là đúng. ngay khi điều kiện boolean trở thành sai, vòng lặp sẽ tự động dừng.
      3. do while: vòng lặp do-while java được sử dụng để lặp đi lặp lại một phần của chương trình cho đến khi điều kiện được chỉ định là đúng. nếu số lần lặp không cố định và bạn phải thực hiện vòng lặp ít nhất một lần thì nên sử dụng vòng lặp do-while.
-     4. for-each: Dùng để duyệt qua các phần tử của mảng hoặc Collection
-**2. Các Class kiểu số tương ứng các kiểu dữ liệu nguyên thủy: Integer, Double…**
+     4. for-each: Dùng để duyệt qua các phần tử của mảng hoặc Collection.
+        
+**2. Các Class kiểu số tương ứng các kiểu dữ liệu nguyên thủy: Integer, Double...**
 -  Các Class kiểu số tương ứng các kiểu dữ liệu nguyên thủy được gọi là Wrapper Class, có thể chứa null, nó bao gồm:
   - Integer
   - Character
