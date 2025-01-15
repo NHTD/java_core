@@ -1,19 +1,20 @@
-**1. Cài đặt môi trường, viết chương trình đầu tiên và cmd để compile và run**
+**1. Date**
+- Date là một lớp đại diện cho một mốc thời gian cụ thể (ngày, tháng, năm, giờ, phút, giây).
+- Xuất hiện trong java 7.
+- Khai báo:
+  - Date currentDate = new Date();
 
-**Bước 1:** Tải xuống và cài đặt jdk mới nhất từ ​​​​trang web chính thức của Oracle
-![image](https://github.com/user-attachments/assets/e2850615-a83e-40eb-9c81-6cca891fbc88)
-
-
-**Bước 2:** Set JAVA_HOME trong Environment Variables.
-
-![image](https://github.com/user-attachments/assets/4c10763a-f997-4dcd-85da-4faedc123d83)
-
-**Bước 3:** Cập nhật lại Path variable
-
-![image](https://github.com/user-attachments/assets/15db920f-e5c9-4c4f-bc64-14b4fbe7d8f7)
+**2. DateFormat**
+- DateFormat: dùng để định dạng cách hiển thị ngày tháng
+- Khai báo:
+  
+![image](https://github.com/user-attachments/assets/d5744108-a4b3-44eb-8898-f2f18af455b9)
 
 
-
-**Bước 4:** Để kiểm tra cài đặt đã thành công, sử dụng java -version
-
-![image](https://github.com/user-attachments/assets/bdc4a1ee-e34c-4002-b1f4-171b3aee570c)
+**3. Method**
+- Một phương thức là một khối code hoặc tập hợp các câu lệnh được nhóm lại với nhau để thực hiện một nhiệm vụ hoặc thao tác nhất định.
+- Thường đưuọc sử dụng để tăng khả năng tái sử dụng code.
+- Nếu method sử dụng void thì không có giá trị trả về.
+- Cách khai báo:
+  - AccessSpecifier ReturnType MethodName ParameterList {}
+  - Eg: public int methodName(int a, int b) { return a+b;}
