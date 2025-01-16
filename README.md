@@ -1,19 +1,18 @@
-**1. Cài đặt môi trường, viết chương trình đầu tiên và cmd để compile và run**
-
-**Bước 1:** Tải xuống và cài đặt jdk mới nhất từ ​​​​trang web chính thức của Oracle
-![image](https://github.com/user-attachments/assets/e2850615-a83e-40eb-9c81-6cca891fbc88)
-
-
-**Bước 2:** Set JAVA_HOME trong Environment Variables.
-
-![image](https://github.com/user-attachments/assets/4c10763a-f997-4dcd-85da-4faedc123d83)
-
-**Bước 3:** Cập nhật lại Path variable
-
-![image](https://github.com/user-attachments/assets/15db920f-e5c9-4c4f-bc64-14b4fbe7d8f7)
-
-
-
-**Bước 4:** Để kiểm tra cài đặt đã thành công, sử dụng java -version
-
-![image](https://github.com/user-attachments/assets/bdc4a1ee-e34c-4002-b1f4-171b3aee570c)
+**1. Abstract**
+- Tính trừu tượng là quá trình ẩn đi các chi tiết được thực hiện trong phương thức và chỉ show cho người dùng các chức năng.
+- Có 2 cách để đạt được tính trừu tượng trong java:
+  1. Sử dụng abstract class.
+  2. Sử dụng interface.
+- 1 abstract class phải được khai báo với từ khóa abstract.
+- Phương thức có thể có abstract hoặc non-abstract.
+- Abstract cũng có thể có các phương thức static và constructor.
+- Abstract cũng có thể có các phương thức final => lớp con không thể overide.
+- Sử dụng extend để kế thừa lớp abstract.
+- Abstract không hỗ trợ đa kế thừa.
+  
+**2. Interface**
+  - Interface là cớ chế để đạt được abstract.
+  - Interface sử dụng từ khóa implements để kế thừa.
+  - Interface hỗ trợ đa kế thừa.
+  - Các phương thức trong interface không có body.
+  - 1 Interface có thể implements nhiều interface khác.
