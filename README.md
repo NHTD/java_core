@@ -1,19 +1,12 @@
-**1. Cài đặt môi trường, viết chương trình đầu tiên và cmd để compile và run**
-
-**Bước 1:** Tải xuống và cài đặt jdk mới nhất từ ​​​​trang web chính thức của Oracle
-![image](https://github.com/user-attachments/assets/e2850615-a83e-40eb-9c81-6cca891fbc88)
-
-
-**Bước 2:** Set JAVA_HOME trong Environment Variables.
-
-![image](https://github.com/user-attachments/assets/4c10763a-f997-4dcd-85da-4faedc123d83)
-
-**Bước 3:** Cập nhật lại Path variable
-
-![image](https://github.com/user-attachments/assets/15db920f-e5c9-4c4f-bc64-14b4fbe7d8f7)
-
-
-
-**Bước 4:** Để kiểm tra cài đặt đã thành công, sử dụng java -version
-
-![image](https://github.com/user-attachments/assets/bdc4a1ee-e34c-4002-b1f4-171b3aee570c)
+**1. Inheritance**
+- Inheritance trong java là cơ ché trong đó 1 đối tượng đạt được tất cả các thuộc tính và hành vi của đối tượng cha.
+- Các loại kế thừa trong java:
+  - Single Inheritance: một lớp con kế thừa 1 lớp cha duy nhất.
+  - Multilevel Inheritance: một lớp kế thừa từ một lớp cha, và lớp con của lớp đó lại được kế thừa bởi một lớp khác.
+  - Hierarchical Inheritance: một lớp cha có nhiều lớp con kế thừa.
+  - Hybrid Inheritance: kết hợp từ nhiều loại kế thừa.
+    
+**2. Polymorphism (Overriding, Overloading)**
+    
+- Method overloading: trong 1 lớp, các phương thức có cùng tên nhưng khác tham số truyền vào.
+- Method overriding: lớp con có cùng phương thức được khai báo ở lớp cha. Lớp con không thể ghi đè các phương thức được khai báo là private, static và final. 
